@@ -1,0 +1,12 @@
+.title {
+    color: maroon;
+}
+
+.links:hover {
+    color: black;
+}
+
+.links {
+    font-size: 20px;
+}
+
