@@ -1,12 +1,35 @@
-.title {
+.title,
+.main-page {
     color: maroon;
+    text-align: center;
 }
 
-.links:hover {
-    color: black;
-}
-
+.main-page li,
 .links {
     font-size: 20px;
+    padding: 15px;
+    display: inline;
 }
 
+.ingredients h4 {
+    color: teal;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.ingredients ul {
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.steps h4 {
+    color: mediumslateblue;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.steps ol {
+    margin-top: 5px;
+    font-family:'Courier New', Courier, monospace;
+}
